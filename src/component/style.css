@@ -1,0 +1,37 @@
+:root {
+  --pink: #fc59ff;
+  --gray: #c3c3c3;
+  --white:#ffffff;
+}
+#icnonav{
+  color: var(--pink);
+  margin-right: 1em;
+  justify-content: start;
+}
+.logo{
+  width: 7em;
+  height: 100%;
+}
+.headernav{
+  width: 100%;
+  height: 30px;
+}
+.hamber{
+  background-color: var(--pink);
+  border-radius: .4em;
+  padding: .3em;
+  width: 48px;
+}
+input{
+  border-radius: .8em;
+  height: 40px;
+  border-color: var(--gray);
+}
+.navbar{
+  position: sticky;
+  width: 100%;
+  top: 0;
+  background-color: var(--white);
+  z-index: 1000;
+  border-bottom: #c3c3c3 solid;
+}
