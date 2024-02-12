@@ -9,12 +9,26 @@
   top: 0;
   background-color: var(--white);
   z-index: 1000;
-  border-bottom: #c3c3c3 solid;
 }
 
-.border-black0 {
-  border-bottom: 2px !important;
-  border-color: black !important;
+#darkmode {
+  margin-left: 15px;
+}
+
+.sticky {
+  border-bottom: #c3c3c3af 1px solid;
+}
+
+no-underline {
+  color: black !important;
+}
+
+.nav_itemsh {
+  color: black;
+}
+
+.nav_itemsh:hover {
+  color: #ff7171;
 }
 
 input {

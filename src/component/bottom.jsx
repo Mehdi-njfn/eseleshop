@@ -1,15 +1,15 @@
 import * as Icon from 'react-bootstrap-icons';
 import './bStyle.css';
-import {  NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Bottom = () => {
-  return ( 
+  return (
     <>
-      <div className="row bottom w-100">
+      <div className="row md:hidden bottom w-100">
         <div className="col-3">
           <NavLink id='link' to='/cart'>
             <div className="row">
-              <Icon.Cart size={32}/>
+              <Icon.Cart size={32} />
             </div>
             <div className="row">
               <p>سبد خرید</p>
@@ -17,42 +17,42 @@ const Bottom = () => {
           </NavLink >
         </div>
         <div className="col-3">
-        <NavLink id='link' to='/account'>
+          <NavLink id='link' to='/account'>
 
-          <div className="row">
-            <Icon.Person size={32}/>
+            <div className="row">
+              <Icon.Person size={32} />
             </div>
             <div className="row">
-            <p>حساب کاربری</p>
+              <p>حساب کاربری</p>
             </div>
-        </NavLink >
+          </NavLink >
         </div>
         <div className="col-3">
-        <NavLink id='link' to='/products'>
+          <NavLink id='link' to='/products'>
 
-          <div className="row">
-            <Icon.ColumnsGap size={32}/>
+            <div className="row">
+              <Icon.ColumnsGap size={32} />
             </div>
             <div className="row">
-              
+
               <p>محصولات</p>
             </div>
-        </NavLink >
+          </NavLink >
         </div>
         <div className="col-3">
-        <NavLink id='link' to='/'>
+          <NavLink id='link' to='/'>
 
-        <div className="row">
-          <Icon.HouseDoor size={32}/>
-          </div>
-          <div className="row">
-          <p>خانه</p>
-          </div>
-        </NavLink >
+            <div className="row">
+              <Icon.HouseDoor size={32} />
+            </div>
+            <div className="row">
+              <p>خانه</p>
+            </div>
+          </NavLink >
         </div>
       </div>
     </>
-   );
+  );
 }
- 
+
 export default Bottom;
