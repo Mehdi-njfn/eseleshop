@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+A project with React , html css and js . and designed with tailwind css framework.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
