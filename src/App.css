@@ -12,3 +12,8 @@
 .bottom{
   justify-self: end;
 }
+
+*{
+  margin: 0;
+  padding: 0;
+}

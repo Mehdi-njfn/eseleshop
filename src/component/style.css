@@ -9,6 +9,8 @@
   top: 0;
   background-color: var(--white);
   z-index: 1000;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 #darkmode {

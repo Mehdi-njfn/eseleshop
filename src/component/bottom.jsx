@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 const Bottom = () => {
   return (
     <>
-      <div className="row md:hidden bottom w-100">
+      <div className="row bg-white md:hidden bottom w-100">
         <div className="col-3">
           <NavLink id='link' to='/cart'>
             <div className="row">

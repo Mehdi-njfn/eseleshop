@@ -1,0 +1,59 @@
+.alice-carousel__dots {
+  margin: 0;
+}
+
+
+@media screen and (max-width: 500px) {
+  .pic {
+    width: 7.75rem !important;
+  }
+
+}
+
+@media screen and (max-width:768px) and (min-width:500px) {
+  .pic {
+    width: 11rem !important;
+  }
+
+}
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+  .pic {
+    width: 12rem !important;
+  }
+
+}
+
+
+@media screen and (min-width:1024px) {
+  .pic {
+    width: 12rem !important;
+  }
+
+  .second-section {
+    padding-right: 150px;
+    padding-left: 150px;
+  }
+}
+
+@media screen and (min-width:1160px) {
+  .pic {
+    width: 15rem !important;
+  }
+
+  .second-section {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+}
+
+@media screen and (min-width:1260px) {
+  .pic {
+    width: 15rem !important;
+  }
+
+  .second-section {
+    padding-right: 200px;
+    padding-left: 200px;
+  }
+}
