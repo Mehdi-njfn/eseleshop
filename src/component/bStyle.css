@@ -1,20 +1,21 @@
-
-.bottom{
-  border-top: 1px solid ;
-  position: fixed;
+.bottom {
+  border-top: 1px solid;
+  position: sticky;
   width: 100%;
   bottom: 0;
   z-index: 1000;
   font-size: .8rem;
-  
+
 }
-.row{
+
+.row {
   /* display: flex;
   justify-content: space-around; */
   padding-top: 5px;
   color: rgb(128, 128, 128);
 }
-#link{
+
+#link {
   text-decoration: none;
 
 }
