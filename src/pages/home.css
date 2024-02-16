@@ -2,6 +2,58 @@
   margin: 0;
 }
 
+.off {
+  animation: pulse 2s infinite;
+}
+
+#element::-webkit-scrollbar {
+  display: none;
+}
+
+.about {
+  direction: rtl;
+  text-indent: 2rem;
+}
+
+.offimg {
+  width: 100px;
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    background-color: #f56a3f;
+    width: 40px;
+    height: 30px;
+  }
+
+  50% {
+    background-color: #9e42b0;
+    width: 31px;
+    height: 22px;
+  }
+}
+
+.bg {
+  background-image: url('../asset/image.034f4a71.png');
+  background-size: cover;
+}
+
+.bbg {
+  background-image: url('../asset/phone-offer-image.68e38776.webp');
+  background-size: cover;
+  height: fit-content;
+  padding-bottom: 35%;
+  width: 100%;
+  background-position: center;
+  position: sticky;
+}
+
+.card {
+  width: -webkit-fill-available;
+}
+
 
 @media screen and (max-width: 500px) {
   .pic {

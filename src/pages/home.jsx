@@ -32,6 +32,9 @@ import offer13 from '../asset/offer-product/c5932dc7286b0071e4cc2419fe27084f.web
 import offer14 from '../asset/offer-product/cb78a7e470bcf1d531c49bc26deafbd2.webp';
 import offer15 from '../asset/offer-product/f83d76e800bf587814f3cd3ec6927b12.webp';
 
+import aboutImg from '../asset/about-image.99421e1f.webp';
+import aboutTitleImg from '../asset/about-title.3e4d0aca.webp';
+
 import './home.css';
 import Card from '../component/card';
 
@@ -41,7 +44,7 @@ const responsive = {
   768: { items: 4 },
 };
 const responsiveoffer = {
-  0: { items: 2 },
+  0: { items: 3 },
   568: { items: 3 },
   768: { items: 4 },
 };
@@ -97,211 +100,221 @@ const Home = () => {
           <p><img className='sliderimg pic  h-auto max-md:h-auto ' src={img10} alt="product" /></p>
         </AliceCarousel>
       </div>
-      <div className="offer-section relative flex items-center bg-[#ff5392d7] md:rounded-[10px] mt-[50px] pt-0 pb-[100px] h-auto w-[100%]">
-        <div className=" absolute z-0 m-0 p-0 bg top-[-70px] w-[100%] h-[400px] flex justify-center ">
-          <div className='md:hidden absolute z-[1] bbg mx-auto top-[80px]  flex items-center justify-center'>
-            <a href="/offer" className=' absolute z-[2] mt-[54%] no-underline font-bold text-[#a0826d] text-3xl sm:text-[3rem]'>See more</a>
+      <div className="offer-section relative flex items-center bg-[#ff5392d7] md:rounded-[10px] mt-[50px] pt-0 h-[450px] min-[550px]:h-[500px] min-[630px]:h-[550px]  w-[100%]">
+        <div className=" w-[50%] h-auto">
+          <div className=" absolute z-0 mx-auto p-0 bg top-[-70px] w-[100%] h-[100%]  flex justify-center ">
+            <div className='md:hidden absolute z-[1] bbg mx-auto top-[80px]  flex items-center justify-center'>
+              <a href="/offer" className=' absolute z-[2] mt-[54%] no-underline font-bold text-[#a0826d] text-3xl sm:text-[3rem]'>See more</a>
+            </div>
           </div>
         </div>
-        <div className=" relative mt-[180px] z-2 w-[100%] h-auto ">
-          <AliceCarousel responsive={responsiveoffer} autoPlayDirection='rtl' disableDotsControls autoPlayStrategy='all' infinite disableButtonsControls animationDuration={1000} mouseTracking autoPlay autoPlayInterval={'2000'}>
-            <div className="card z-0 flex content-center h-[220px] w-[170px] mr-12">
-              <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
-              <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer1} alt="" />
-              <div className=" h-[100%] flex items-end justify-center">
-                <div className=" grid mb-[10px]">
-                  <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
-                  <span className='justify-end content-end'>120.000$</span>
-                  <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+        <div id='element' className=" hidden relative top-[80px] mt-[180px] z-[2] w-[100%] h-auto overflow-scroll flex items-end">
+          <div className="grid">
+            <AliceCarousel responsive={responsiveoffer} autoWidth autoPlayDirection='rtl' disableDotsControls autoPlayStrategy='all' infinite disableButtonsControls animationDuration={1000} mouseTracking autoPlay autoPlayInterval={'2000'}>
+              <div className="card z-0 flex content-center h-[220px] w-[170px] mr-12">
+                <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
+                <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer1} alt="" />
+                <div className=" h-[100%] flex items-end justify-center">
+                  <div className=" grid mb-[10px]">
+                    <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
+                    <span className='justify-end content-end'>120.000$</span>
+                    <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                  </div>
+
                 </div>
-
               </div>
-            </div>
-            <div className="card z-0 flex content-center h-[220px] w-[170px]">
-              <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
-              <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer2} alt="" />
-              <div className=" h-[100%] flex items-end justify-center">
-                <div className=" grid mb-[10px]">
-                  <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
-                  <span className='justify-end content-end'>120.000$</span>
-                  <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+              <div className="card z-0 flex content-center h-[220px] w-[170px]">
+                <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
+                <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer2} alt="" />
+                <div className=" h-[100%] flex items-end justify-center">
+                  <div className=" grid mb-[10px]">
+                    <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
+                    <span className='justify-end content-end'>120.000$</span>
+                    <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                  </div>
+
                 </div>
-
               </div>
-            </div>
-            <div className="card z-0 flex content-center h-[220px] w-[170px]">
+              <div className="card z-0 flex content-center h-[220px] w-[170px]">
 
-              <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
-              <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer3} alt="" />
-              <div className=" h-[100%] flex items-end justify-center">
-                <div className=" grid mb-[10px]">
-                  <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
-                  <span className='justify-end content-end'>120.000$</span>
-                  <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
+                <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer3} alt="" />
+                <div className=" h-[100%] flex items-end justify-center">
+                  <div className=" grid mb-[10px]">
+                    <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
+                    <span className='justify-end content-end'>120.000$</span>
+                    <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                  </div>
+
                 </div>
-
               </div>
-            </div>
-            <div className="card z-0 flex content-center h-[220px] w-[170px]">
+              <div className="card z-0 flex content-center h-[220px] w-[170px]">
 
-              <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
-              <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer4} alt="" />
-              <div className=" h-[100%] flex items-end justify-center">
-                <div className=" grid mb-[10px]">
-                  <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
-                  <span className='justify-end content-end'>120.000$</span>
-                  <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
+                <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer4} alt="" />
+                <div className=" h-[100%] flex items-end justify-center">
+                  <div className=" grid mb-[10px]">
+                    <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
+                    <span className='justify-end content-end'>120.000$</span>
+                    <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                  </div>
+
                 </div>
-
               </div>
-            </div>
-            <div className="card z-0 flex content-center h-[220px] w-[170px]">
+              <div className="card z-0 flex content-center h-[220px] w-[170px]">
 
-              <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
-              <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer5} alt="" />
-              <div className=" h-[100%] flex items-end justify-center">
-                <div className=" grid mb-[10px]">
-                  <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
-                  <span className='justify-end content-end'>120.000$</span>
-                  <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
+                <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer5} alt="" />
+                <div className=" h-[100%] flex items-end justify-center">
+                  <div className=" grid mb-[10px]">
+                    <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
+                    <span className='justify-end content-end'>120.000$</span>
+                    <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                  </div>
+
                 </div>
-
               </div>
-            </div>
-            <div className="card z-0 flex content-center h-[220px] w-[170px]">
+              <div className="card z-0 flex content-center h-[220px] w-[170px]">
 
-              <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
-              <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer6} alt="" />
-              <div className=" h-[100%] flex items-end justify-center">
-                <div className=" grid mb-[10px]">
-                  <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
-                  <span className='justify-end content-end'>120.000$</span>
-                  <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
+                <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer6} alt="" />
+                <div className=" h-[100%] flex items-end justify-center">
+                  <div className=" grid mb-[10px]">
+                    <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
+                    <span className='justify-end content-end'>120.000$</span>
+                    <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                  </div>
+
                 </div>
-
               </div>
-            </div>
-            <div className="card z-0 flex content-center h-[220px] w-[170px]">
+              <div className="card z-0 flex content-center h-[220px] w-[170px]">
 
-              <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
-              <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer7} alt="" />
-              <div className=" h-[100%] flex items-end justify-center">
-                <div className=" grid mb-[10px]">
-                  <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
-                  <span className='justify-end content-end'>120.000$</span>
-                  <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
+                <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer7} alt="" />
+                <div className=" h-[100%] flex items-end justify-center">
+                  <div className=" grid mb-[10px]">
+                    <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
+                    <span className='justify-end content-end'>120.000$</span>
+                    <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                  </div>
+
                 </div>
-
               </div>
-            </div>
-            <div className="card z-0 flex content-center h-[220px] w-[170px]">
+              <div className="card z-0 flex content-center h-[220px] w-[170px]">
 
-              <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
-              <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer8} alt="" />
-              <div className=" h-[100%] flex items-end justify-center">
-                <div className=" grid mb-[10px]">
-                  <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
-                  <span className='justify-end content-end'>120.000$</span>
-                  <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
+                <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer8} alt="" />
+                <div className=" h-[100%] flex items-end justify-center">
+                  <div className=" grid mb-[10px]">
+                    <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
+                    <span className='justify-end content-end'>120.000$</span>
+                    <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                  </div>
+
                 </div>
-
               </div>
-            </div>
-            <div className="card z-0 flex content-center h-[220px] w-[170px]">
+              <div className="card z-0 flex content-center h-[220px] w-[170px]">
 
-              <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
-              <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer9} alt="" />
-              <div className=" h-[100%] flex items-end justify-center">
-                <div className=" grid mb-[10px]">
-                  <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
-                  <span className='justify-end content-end'>120.000$</span>
-                  <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
+                <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer9} alt="" />
+                <div className=" h-[100%] flex items-end justify-center">
+                  <div className=" grid mb-[10px]">
+                    <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
+                    <span className='justify-end content-end'>120.000$</span>
+                    <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                  </div>
+
                 </div>
-
               </div>
-            </div>
-            <div className="card z-0 flex content-center h-[220px] w-[170px]">
+              <div className="card z-0 flex content-center h-[220px] w-[170px]">
 
-              <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
-              <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer10} alt="" />
-              <div className=" h-[100%] flex items-end justify-center">
-                <div className=" grid mb-[10px]">
-                  <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
-                  <span className='justify-end content-end'>120.000$</span>
-                  <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
+                <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer10} alt="" />
+                <div className=" h-[100%] flex items-end justify-center">
+                  <div className=" grid mb-[10px]">
+                    <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
+                    <span className='justify-end content-end'>120.000$</span>
+                    <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                  </div>
+
                 </div>
-
               </div>
-            </div>
-            <div className="card z-0 flex content-center h-[220px] w-[170px]">
+              <div className="card z-0 flex content-center h-[220px] w-[170px]">
 
-              <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
-              <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer11} alt="" />
-              <div className=" h-[100%] flex items-end justify-center">
-                <div className=" grid mb-[10px]">
-                  <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
-                  <span className='justify-end content-end'>120.000$</span>
-                  <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
+                <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer11} alt="" />
+                <div className=" h-[100%] flex items-end justify-center">
+                  <div className=" grid mb-[10px]">
+                    <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
+                    <span className='justify-end content-end'>120.000$</span>
+                    <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                  </div>
+
                 </div>
-
               </div>
-            </div>
-            <div className="card z-0 flex content-center h-[220px] w-[170px]">
+              <div className="card z-0 flex content-center h-[220px] w-[170px]">
 
-              <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
-              <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer12} alt="" />
-              <div className=" h-[100%] flex items-end justify-center">
-                <div className=" grid mb-[10px]">
-                  <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
-                  <span className='justify-end content-end'>120.000$</span>
-                  <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
+                <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer12} alt="" />
+                <div className=" h-[100%] flex items-end justify-center">
+                  <div className=" grid mb-[10px]">
+                    <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
+                    <span className='justify-end content-end'>120.000$</span>
+                    <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                  </div>
+
                 </div>
-
               </div>
-            </div>
-            <div className="card z-0 flex content-center h-[220px] w-[170px]">
+              <div className="card z-0 flex content-center h-[220px] w-[170px]">
 
-              <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
-              <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer13} alt="" />
-              <div className=" h-[100%] flex items-end justify-center">
-                <div className=" grid mb-[10px]">
-                  <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
-                  <span className='justify-end content-end'>120.000$</span>
-                  <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
+                <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer13} alt="" />
+                <div className=" h-[100%] flex items-end justify-center">
+                  <div className=" grid mb-[10px]">
+                    <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
+                    <span className='justify-end content-end'>120.000$</span>
+                    <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                  </div>
+
                 </div>
-
               </div>
-            </div>
-            <div className="card z-0 flex content-center h-[220px] w-[170px]">
+              <div className="card z-0 flex content-center h-[220px] w-[170px]">
 
-              <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
-              <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer14} alt="" />
-              <div className=" h-[100%] flex items-end justify-center">
-                <div className=" grid mb-[10px]">
-                  <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
-                  <span className='justify-end content-end'>120.000$</span>
-                  <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
+                <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer14} alt="" />
+                <div className=" h-[100%] flex items-end justify-center">
+                  <div className=" grid mb-[10px]">
+                    <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
+                    <span className='justify-end content-end'>120.000$</span>
+                    <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                  </div>
+
                 </div>
-
               </div>
-            </div>
-            <div className="card z-0 flex content-center h-[220px] w-[170px]">
+              <div className="card z-0 flex content-center h-[220px] w-[170px]">
 
-              <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
-              <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer15} alt="" />
-              <div className=" h-[100%] flex items-end justify-center">
-                <div className=" grid mb-[10px]">
-                  <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
-                  <span className='justify-end content-end'>120.000$</span>
-                  <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>
+                <img className='offimg mt-[20px] z-1 w-[120px] h-auto mx-auto' src={offer15} alt="" />
+                <div className=" h-[100%] flex items-end justify-center">
+                  <div className=" grid mb-[10px]">
+                    <span className=' z-1 justify-end content-end font-bold'>Cream VHA</span>
+                    <span className='justify-end content-end'>120.000$</span>
+                    <span className='z-1 line-through flex justify-center  decoration-red-600 text-[#a4a4a4dd]'>140.000$</span>
+                  </div>
+
                 </div>
-
               </div>
-            </div>
 
-          </AliceCarousel>
+            </AliceCarousel>
+          </div>
         </div>
       </div >
+      <div className="">
+        <img src={aboutImg} className=' relative w-[100%]' alt="" />
+        <img src={aboutTitleImg} className=' relative w-[80%]' alt="" />
+        <p className='about mx-[10px] mb-[4rem] mt-4 text-[#6d6d6ddd] font-medium text-[1rem] text-justify relative'>اِسل یک فروشگاه آنلاین است که در زمینه فروش انواع لوازم آرایشی فعالیت می‌کند. ما به عنوان یک فروشنده معتبر، بهترین برندها و محصولات با کیفیت را به مشتریان ارائه می‌دهیم. در اِسل، متعهد هستیم که بهترین تجربه خرید را برای مشتریانمان فراهم کنیم. مجموعه‌ای از بهترین برندهای لوازم آرایشی را در سایت اِسل پیدا خواهید کرد. ما با توجه به استانداردهای بالا در انتخاب محصولات، همیشه از برندهای معتبر و مشهور در صنعت آرایش استفاده می‌کنیم.</p>
+        <a href='/aboutUs' className='my-[1.5rem] border-none px-[2rem] py-[.8rem] rounded-[6px] no-underline font-semibold text-white bg-[#ff5392d7]'>درباره ما</a>
+      </div>
 
     </>);
 }
