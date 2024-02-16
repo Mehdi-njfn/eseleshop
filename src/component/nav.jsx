@@ -39,7 +39,7 @@ const Nav = () => {
           </div>
           <div className="w-90 flex mt-auto justify-end">
             <input className='w-[80%] h-12 rounded-xl  mr-auto ml-[15px] my-1' type="text" placeholder='search product ...' />
-            <button className='w-[41px] h-[41px] mt-[4px] mx-[15px]  text-center items-center rounded-lg bg-red-300 bg-opacity-80 border-none text-3xl font-extrabold flex content-center'><Icon.List className='text-white ' size={32} /></button>
+            <button className='w-[41px] h-[41px] mt-[4px] mx-[15px]  text-center items-center rounded-lg bg-red-300 bg-opacity-80 border-none text-3xl font-extrabold flex content-center'><Icon.List className='text-white mx-auto' size={32} /></button>
           </div>
         </div>
 
