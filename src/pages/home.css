@@ -1,5 +1,20 @@
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
+
 .alice-carousel__dots {
   margin: 0;
+}
+
+.alice-carousel__stage-item {
+  margin-inline: 5px; /* deleted */
+}
+
+
+.alice-carousel {
+  overflow: auto;
+
 }
 
 .off {
@@ -37,7 +52,9 @@
 
 .bg {
   background-image: url('../asset/image.034f4a71.png');
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .bbg {
@@ -50,8 +67,15 @@
   position: sticky;
 }
 
+.bbbg {
+  background-image: url('../asset/offer-image-web.49bad458.webp');
+  background-size: cover;
+
+}
+
 .card {
   width: -webkit-fill-available;
+
 }
 
 

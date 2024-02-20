@@ -83,14 +83,14 @@ const Home = () => {
           <p><img className='sliderimg h-auto w-[100%]' src={img2} alt="product" /></p>
         </AliceCarousel>
       </div>
-      <div className="first-section relative max-md:hidden w-[100%]">
+      <div className="first-section relative max-md:hidden w-screen" >
         <AliceCarousel infinite autoPlayStrategy='all' disableDotsControls disableButtonsControls animationDuration={1000} mouseTracking animationType='fadeout' autoPlay autoPlayInterval={'3000'}>
-          <p><img className='sliderimg h-auto w-[100%]' src={img11} alt="product" /></p>
-          <p><img className='sliderimg h-auto w-[100%]' src={img12} alt="product" /></p>
+          <img className='sliderimg h-auto w-screen' src={img11} alt="product" />
+          <img className='sliderimg h-auto w-screen' src={img12} alt="product" />
         </AliceCarousel>
       </div>
 
-      <div className="second-section relative w-[100%] pt-[10px] ">
+      <div className="second-section relative w-[100%] pt-[10px]">
         <AliceCarousel responsive={responsive} disableDotsControls autoPlayStrategy='all' infinite disableButtonsControls animationDuration={1000} mouseTracking autoPlay autoPlayInterval={'2000'}>
           <p><img className='sliderimg pic  h-auto max-md:h-auto ' src={img3} alt="product" /></p>
           <p><img className='sliderimg pic  h-auto max-md:h-auto ' src={img6} alt="product" /></p>
@@ -100,16 +100,19 @@ const Home = () => {
           <p><img className='sliderimg pic  h-auto max-md:h-auto ' src={img10} alt="product" /></p>
         </AliceCarousel>
       </div>
-      <div className="offer-section relative flex items-center bg-[#ff5392d7] md:rounded-[10px] mt-[50px] pt-0 h-[450px] min-[550px]:h-[500px] min-[630px]:h-[550px]  w-[100%]">
+      <div className="offer-section relative flex items-center bg-[#ff5392d7] md:rounded-[10px] mt-[50px] pt-0 h-[450px] min-[550px]:h-[500px] min-[630px]:h-[550px] md:h-[410px] md:w-[90%]  w-[100%]">
         <div className=" w-[50%] h-auto">
-          <div className=" absolute z-0 mx-auto p-0 bg top-[-70px] w-[100%] h-[100%]  flex justify-center ">
+          <div className=" absolute z-0 mx-auto p-0 bg top-[-90px] w-[100%] h-[100%] md:bg-right md:h-[600px] md:left-[3.5rem] flex justify-center ">
             <div className='md:hidden absolute z-[1] bbg mx-auto top-[80px]  flex items-center justify-center'>
-              <a href="/offer" className=' absolute z-[2] mt-[54%] no-underline font-bold text-[#a0826d] text-3xl sm:text-[3rem]'>See more</a>
+              <a href="/offer" className=' absolute z-[2] mt-[54%] no-underline font-bold text-[#a0826d] text-xl sm:text-[2rem]'>See more</a>
             </div>
           </div>
+          <div className=" max-md:hidden z-[1] absolute bbbg w-[260px] top-0 right-[10px] h-[100%]">
+            <a href="/offer" className=' absolute z-[2] bottom-[80px] right-[85px] no-underline font-bold text-[#a0826d] text-xl sm:text-[2rem]'>See more</a>
+          </div>
         </div>
-        <div id='element' className=" hidden relative top-[80px] mt-[180px] z-[2] w-[100%] h-auto overflow-scroll flex items-end">
-          <div className="grid">
+        <div id='element' className=" absolute bottom-[3%] hidden">
+          <div className="grid w-fit overflow-x-hidden">
             <AliceCarousel responsive={responsiveoffer} autoWidth autoPlayDirection='rtl' disableDotsControls autoPlayStrategy='all' infinite disableButtonsControls animationDuration={1000} mouseTracking autoPlay autoPlayInterval={'2000'}>
               <div className="card z-0 flex content-center h-[220px] w-[170px] mr-12">
                 <div className=" off absolute z-10 bg-red-700 m-[5px] w-fit text-white p-[2px] rounded-[4px]">10%</div>

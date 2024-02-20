@@ -75,19 +75,19 @@ const Nav = () => {
             <div className="2xl:w-[50%] xl:w-[60%] md:w-[70%] flex float-start">
               <ul className='mt-[.31rem] list-none text-lg flex flex-row'>
                 <li className='mx-[.62rem] mt-[.31rem] '>
-                  <NavLink to='/' className=' no-underline dark:text-white font-medium xl:text-2xl lg:text-lg md:text-base nav_itemsh transition-all'>Home</NavLink>
+                  <NavLink to='/' className=' no-underline dark:text-white font-medium xl:text-xl lg:text-sm md:text-xs nav_itemsh transition-all'>Home</NavLink>
                 </li>
                 <li className='mx-[.62rem] mt-[.31rem] '>
-                  <NavLink to='/' className=' no-underline dark:text-white font-medium xl:text-2xl lg:text-lg md:text-base nav_itemsh transition-all'>Gallery</NavLink>
+                  <NavLink to='/' className=' no-underline dark:text-white font-medium xl:text-xl lg:text-sm md:text-xs nav_itemsh transition-all'>Gallery</NavLink>
                 </li>
                 <li className='mx-[.62rem] mt-[.31rem] '>
-                  <NavLink to='/' className=' no-underline dark:text-white font-medium xl:text-2xl lg:text-lg md:text-base nav_itemsh transition-all'>Blog</NavLink>
+                  <NavLink to='/' className=' no-underline dark:text-white font-medium xl:text-xl lg:text-sm md:text-xs nav_itemsh transition-all'>Blog</NavLink>
                 </li>
                 <li className='mx-[.62rem] mt-[.31rem] '>
-                  <NavLink to='/' className=' no-underline dark:text-white font-medium xl:text-2xl lg:text-lg md:text-base nav_itemsh transition-all'>Contact Us</NavLink>
+                  <NavLink to='/' className=' no-underline dark:text-white font-medium xl:text-xl lg:text-sm md:text-xs nav_itemsh transition-all'>Contact Us</NavLink>
                 </li>
                 <li className='mx-[.62rem] mt-[.31rem] '>
-                  <NavLink to='/' className=' no-underline dark:text-white font-medium xl:text-2xl lg:text-lg md:text-base nav_itemsh transition-all'>About Us</NavLink>
+                  <NavLink to='/' className=' no-underline dark:text-white font-medium xl:text-xl lg:text-sm md:text-xs nav_itemsh transition-all'>About Us</NavLink>
                 </li>
                 <li className='h-[2.5rem] bg-red-300  text-white lg:text-2xl pb-[.31rem]'>
                   <label className='lg:mx-[.93rem] lg:ml-[2.5rem] md:mx-[.43rem] mt-[.25x]'>Products</label>
