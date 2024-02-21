@@ -3,12 +3,23 @@
 @tailwind utilities;
 
 
+
+.zoom:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  display: 300ms;
+}
+.card:hover{
+  transition: all .5s ease-in-out;
+}
+
 .alice-carousel__dots {
   margin: 0;
 }
 
 .alice-carousel__stage-item {
-  margin-inline: 5px; /* deleted */
+  margin-inline: 5px;
+  /* deleted */
 }
 
 
@@ -27,7 +38,6 @@
 
 .about {
   direction: rtl;
-  text-indent: 2rem;
 }
 
 .offimg {
@@ -57,6 +67,13 @@
   background-position: center;
 }
 
+.bg2 {
+  background-image: url('../asset/image2.7c4242f3.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .bbg {
   background-image: url('../asset/phone-offer-image.68e38776.webp');
   background-size: cover;
@@ -69,6 +86,12 @@
 
 .bbbg {
   background-image: url('../asset/offer-image-web.49bad458.webp');
+  background-size: cover;
+
+}
+
+.bbbg2 {
+  background-image: url('../asset/new-product-image.0a5895a1.webp');
   background-size: cover;
 
 }
