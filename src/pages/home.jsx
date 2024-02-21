@@ -547,7 +547,9 @@ const Home = () => {
           <img className='zoom relative  h-auto w-full rounded-xl' src={imglast2} alt="" />
         </div>
       </div>
-      <div className="reading relative w-[100%] "></div>
+      <div className="reading relative w-[100%] ">
+        
+      </div>
 
     </>);
 }
