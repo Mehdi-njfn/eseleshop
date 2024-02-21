@@ -4,12 +4,17 @@
 
 
 
+.readind_title {
+  border-bottom: 2px solid #e1e1e1;
+}
+
 .zoom:hover {
   transform: scale(1.1);
   transition: 1s;
   display: 300ms;
 }
-.card:hover{
+
+.card:hover {
   transition: all .5s ease-in-out;
 }
 
