@@ -111,7 +111,7 @@ const Home = () => {
             </div>
           </div>
           <div className=" max-md:hidden z-[1] absolute bbbg w-[260px] top-0 right-[10px] h-[100%]">
-            <a href="/offer" className=' absolute z-[2] bottom-[80px] right-[85px] no-underline font-bold text-[#a0826d] text-xl sm:text-[2rem]'>See more</a>
+            <a href="/offer" className=' absolute z-[2] bottom-[80px] right-[75px] no-underline font-bold text-[#a0826d] text-xl sm:text-[2rem]'>See more</a>
           </div>
         </div>
         <div id='element' className=" absolute bottom-[3%] md:w-[100%] md:top-[40px] md:left-[20px] md:z-[1]">
@@ -315,7 +315,7 @@ const Home = () => {
           </div>
         </div>
       </div >
-      <div class=" relative md:h-[600px] container xl:w-[90%] mt-[90px] md:grid md:grid-rows-2 md:grid-flow-col md:gap-4">
+      <div class=" relative md:h-[600px] container xl:w-[90%] mt-[90px] md:pb-[80px] md:grid md:grid-rows-2 md:grid-flow-col md:gap-4">
         <div class=" md:row-span-2  bg-none">
           <img src={aboutImg} className=' relative right-[4%] md:w-[350px] lg:w-[400px] xl:w-[600px] w-[250px] h-auto' alt="" />
         </div>
@@ -335,7 +335,7 @@ const Home = () => {
             </div>
           </div>
           <div className=" max-md:hidden z-[1] absolute bbbg2 w-[260px] top-0 right-[10px] h-[100%]">
-            <a href="/offer" className=' absolute z-[2] bottom-[80px] right-[60px] no-underline font-bold text-[#a0826d] text-xl sm:text-[2rem]'>See more</a>
+            <a href="/offer" className=' absolute z-[2] bottom-[80px] right-[55px] no-underline font-bold text-[#a0826d] text-xl sm:text-[2rem]'>See more</a>
           </div>
         </div>
         <div id='element' className=" absolute bottom-[3%] md:w-[100%] md:top-[40px] md:left-[20px] md:z-[1]">
