@@ -548,7 +548,7 @@ const Home = () => {
         </div>
       </div>
       <div className="reading relative w-[100%] ">
-        <div className=" relative w-[100%]">
+        <div className=" relative w-[100%] border-b-2">
           <p>خواندنی ها</p>
           <a href="/reading">Read more</a>
         </div>
