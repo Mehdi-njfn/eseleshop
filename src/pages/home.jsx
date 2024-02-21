@@ -547,9 +547,9 @@ const Home = () => {
           <img className='zoom relative  h-auto w-full rounded-xl' src={imglast2} alt="" />
         </div>
       </div>
-      <div className="reading relative w-[100%] ">
+      <div className="reading relative w-[100%] h-[100px]">
         <div className=" relative w-[100%] border-b-2">
-          <p>خواندنی ها</p>
+          <p className=''>خواندنی ها</p>
           <a href="/reading">Read more</a>
         </div>
       </div>
