@@ -547,12 +547,13 @@ const Home = () => {
           <img className='zoom relative  h-auto w-full rounded-xl' src={imglast2} alt="" />
         </div>
       </div>
-      <div className="reading container relative w-[100%] h-[100px]">
-        <div className="readind_title relative w-[100%]  ">
-          <p className=' lg:text-[2rem] font-medium'>خواندنی ها</p>
-          <a href="/reading">Read more</a>
+      <div className="reading container relative w-[90%] h-[100px] mx-auto">
+        <div className="readind_title relative w-[100%] py-[25px] ">
+          <p className='flex float-right justify-end w-[50%] lg:text-[2rem] font-medium'>خواندنی ها</p>
+          <p className='w-[50%] flex mb-0'><a className=' no-underline text-black font-medium text-[2rem]' href="/reading">Read more</a></p>
         </div>
       </div>
+      
 
     </>);
 }
