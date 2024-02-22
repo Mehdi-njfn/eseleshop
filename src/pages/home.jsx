@@ -549,11 +549,11 @@ const Home = () => {
       </div>
       <div className="reading container relative w-[90%] h-[100px] mx-auto">
         <div className="readind_title relative w-[100%] py-[25px] ">
-          <p className='flex float-right justify-end w-[50%] lg:text-[2rem] font-medium'>خواندنی ها</p>
-          <p className='w-[50%] flex mb-0'><a className=' no-underline text-black font-medium text-[2rem]' href="/reading">Read more</a></p>
+          <p className='flex float-right justify-end w-[50%] md:text-[1.5rem] lg:text-[2rem] font-medium'>خواندنی ها</p>
+          <p className='w-[50%] flex mb-0'><a className=' no-underline text-black font-medium text-[1rem] md:text-[1.5rem]' href="/reading">Read more</a></p>
         </div>
       </div>
-      
+
 
     </>);
 }
