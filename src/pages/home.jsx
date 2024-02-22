@@ -559,14 +559,50 @@ const Home = () => {
           <p className='w-[50%] flex mb-0'><a className=' no-underline text-black font-medium text-[1rem] md:text-[1.5rem]' href="/reading">Read more</a></p>
         </div>
       </div>
-      <div className=" relative blog-section container">
-        <div className=" w-[300px] h-[400px] rounded-md shadow-md">
+      <div className=" relative blog-section container w-[90%] flex mx-auto">
+        <div className=" w-[250px] h-[350px] rounded-lg shadow-md m-2">
           <div className="card2">
             <img className='w-[100%]' src={readimg1} alt="" />
-            <div className=" relative top-[-25px] w-3/5 h-[35px] rounded-md mx-auto bg-gray-300"><p className=' font-medium text-[1.6rem]'>2/22/2024</p></div>
-            <p>کیفیت لوازم آرایشی در چیست؟</p>
-            <p className=' text-[#b5b5b5]'>...اهمیت کیفیت لوازم آرایشی اصلی</p>
-            <a className=' no-underline text-[#000]' href="#">Read more</a>
+            <div className=" relative top-[-15px] w-2/5 h-[25px] rounded-md mx-auto bg-gray-300"><p className=' font-medium text-[1.2rem]'>2/22/2024</p></div>
+            <p className=' font-bold'>کیفیت لوازم آرایشی در چیست؟</p>
+            <p className=' text-[#b5b5b5] '>...اهمیت کیفیت لوازم آرایشی اصلی</p>
+            <a className=' relative  no-underline text-red-300 font-bold text-[1.6rem]' href="#">Read more</a>
+          </div>
+        </div>
+        <div className=" w-[250px] h-[350px] rounded-lg shadow-md m-2">
+          <div className="card2">
+            <img className='w-[100%]' src={readimg1} alt="" />
+            <div className=" relative top-[-15px] w-2/5 h-[25px] rounded-md mx-auto bg-gray-300"><p className=' font-medium text-[1.2rem]'>2/22/2024</p></div>
+            <p className=' font-bold'>کیفیت لوازم آرایشی در چیست؟</p>
+            <p className=' text-[#b5b5b5] '>...اهمیت کیفیت لوازم آرایشی اصلی</p>
+            <a className=' relative  no-underline text-red-300 font-bold text-[1.6rem]' href="#">Read more</a>
+          </div>
+        </div>
+        <div className=" w-[250px] h-[350px] rounded-lg shadow-md m-2">
+          <div className="card2">
+            <img className='w-[100%]' src={readimg1} alt="" />
+            <div className=" relative top-[-15px] w-2/5 h-[25px] rounded-md mx-auto bg-gray-300"><p className=' font-medium text-[1.2rem]'>2/22/2024</p></div>
+            <p className=' font-bold'>کیفیت لوازم آرایشی در چیست؟</p>
+            <p className=' text-[#b5b5b5] '>...اهمیت کیفیت لوازم آرایشی اصلی</p>
+            <a className=' relative  no-underline text-red-300 font-bold text-[1.6rem]' href="#">Read more</a>
+          </div>
+        </div>
+        <div className=" w-[250px] h-[350px] rounded-lg shadow-md m-2">
+          <div className="card2">
+            <img className='w-[100%]' src={readimg1} alt="" />
+            <div className=" relative top-[-15px] w-2/5 h-[25px] rounded-md mx-auto bg-gray-300"><p className=' font-medium text-[1.2rem]'>2/22/2024</p></div>
+            <p className=' font-bold'>کیفیت لوازم آرایشی در چیست؟</p>
+            <p className=' text-[#b5b5b5] '>...اهمیت کیفیت لوازم آرایشی اصلی</p>
+            <a className=' relative  no-underline text-red-300 font-bold text-[1.6rem]' href="#">Read more</a>
+          </div>
+        </div>
+        <div className=" w-[250px] h-[350px] rounded-lg shadow-md m-2">
+          <div className="card2">
+            <img className='w-[100%]' src={readimg1} alt="" />
+            <div className=" relative top-[-15px] w-2/5 h-[25px] rounded-md mx-auto bg-gray-300"><p className=' font-medium text-[1.2rem]'>2/22/2024</p></div>
+            <p className=' font-bold'>کیفیت لوازم آرایشی در چیست؟</p>
+            <p className=' text-[#b5b5b5] '>...اهمیت کیفیت لوازم آرایشی اصلی</p>
+            <a className=' relative  no-underline text-red-300 font-bold text-[1.6rem]' href="#">Read more</a>
           </div>
         </div>
       </div>
