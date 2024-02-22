@@ -560,10 +560,13 @@ const Home = () => {
         </div>
       </div>
       <div className=" relative blog-section container">
-        <div className=" w-[300px] h-[400px] rounded-md shadow-xl">
+        <div className=" w-[300px] h-[400px] rounded-md shadow-md">
           <div className="card2">
             <img className='w-[100%]' src={readimg1} alt="" />
-            <div className="w-3/5 h-[35px] rounded-md mx-auto bg-gray-300">2/22/2024</div>
+            <div className=" relative top-[-25px] w-3/5 h-[35px] rounded-md mx-auto bg-gray-300"><p className=' font-medium text-[1.6rem]'>2/22/2024</p></div>
+            <p>کیفیت لوازم آرایشی در چیست؟</p>
+            <p className=' text-[#b5b5b5]'>...اهمیت کیفیت لوازم آرایشی اصلی</p>
+            <a className=' no-underline text-[#000]' href="#">Read more</a>
           </div>
         </div>
       </div>
