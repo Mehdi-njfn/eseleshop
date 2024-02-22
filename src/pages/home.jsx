@@ -38,6 +38,12 @@ import imglast2 from '../asset/54a95a83e58ad836e07508272b78b7dc.webp';
 import aboutImg from '../asset/about-image.99421e1f.webp';
 import aboutTitleImg from '../asset/about-title.3e4d0aca.webp';
 
+import readimg1 from '../asset/91f90f55390fbbce7e8d666840366685.webp';
+import readimg2 from '../asset/99f71c77500f092dfd2141e487cab37c.webp';
+import readimg3 from '../asset/41851d3111052fb6f0329496ca1a6ca5.webp';
+import readimg4 from '../asset/b5c2f46d463b319907b993e56b8a141e.webp';
+import readimg5 from '../asset/f8e45df29d14b65bc98b4bcd24184db9.webp';
+
 import './home.css';
 import Card from '../component/card';
 
@@ -553,6 +559,15 @@ const Home = () => {
           <p className='w-[50%] flex mb-0'><a className=' no-underline text-black font-medium text-[1rem] md:text-[1.5rem]' href="/reading">Read more</a></p>
         </div>
       </div>
+      <div className=" relative blog-section container">
+        <div className=" w-[300px] h-[400px] rounded-md shadow-xl">
+          <div className="card2">
+            <img className='w-[100%]' src={readimg1} alt="" />
+            <div className="w-3/5 h-[35px] rounded-md mx-auto bg-gray-300">2/22/2024</div>
+          </div>
+        </div>
+      </div>
+      <div className="w-[100%] h-20"></div>
 
 
     </>);
