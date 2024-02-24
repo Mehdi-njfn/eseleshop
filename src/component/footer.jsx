@@ -2,6 +2,7 @@
 import * as Icon from 'react-bootstrap-icons';
 
 import zar from '../asset/download.png';
+import enamad from '../asset/enamad-logo.ac482e80.jpeg';
 
 
 
@@ -41,9 +42,10 @@ const Footer = () => {
         </div>
 
       </div>
-      <div className="medals relative mx-auto mt-8">
+      <div className="medals relative mx-auto mt-8 ">
         <p className='font-bold text-[1.4rem] mb-7'>با اعتماد خرید کنید</p>
-        <img src={zar} alt="" />
+        <img className='h-auto w-[80px] mr-2 rounded-lg' src={zar} alt="" />
+        <img className='h-auto w-[105px] ml-2' src={enamad} alt="" />
       </div>
 
     </div>
