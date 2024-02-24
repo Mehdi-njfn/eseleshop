@@ -4,11 +4,11 @@
 
 
 const Footer = () => {
-  return ( 
-    <>
-      
-    </>
-   );
+  return (
+    <div className="footer ">
+
+    </div>
+  );
 }
- 
+
 export default Footer;
