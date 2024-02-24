@@ -560,7 +560,7 @@ const Home = () => {
         </div>
       </div>
       <div id='element' className=" relative w-[90%] blog-section overflow-auto overscroll-x-none container mx-auto">
-        <div className="mx-auto h-[400px] inline-flex">
+        <div  className="mx-auto h-[400px] inline-flex">
 
           <div className=" w-[250px] h-[350px] rounded-lg shadow-md m-2">
             <div className="card2">
@@ -618,8 +618,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="w-[100%] h-20"></div>
-
 
     </>);
 }
