@@ -7,6 +7,7 @@ import Bottom from './component/bottom';
 import Products from './pages/products';
 import Cart from './pages/cart';
 import Account from './pages/account';
+import Footer from './component/footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path='/account' element={<Account />} />
           </Routes>
         <Bottom />
+        <Footer />
       </Router>
     </div>
   </>
