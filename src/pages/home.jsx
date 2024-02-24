@@ -560,56 +560,56 @@ const Home = () => {
         </div>
       </div>
       <div id='element' className=" relative w-[90%] blog-section overflow-auto overscroll-x-none container mx-auto">
-        <div  className="mx-auto h-[400px] inline-flex">
+        <div className="mx-auto h-[400px] inline-flex">
 
-          <div className=" w-[250px] h-[350px] rounded-lg shadow-md m-2">
-            <div className="card2">
-              <img className='w-[100%]' src={readimg1} alt="" />
+          <div className=" overflow-hidden w-[250px] h-[350px] rounded-lg shadow-md m-2">
+            <div className="card2 zoom ">
+              <img className=' w-[100%]' src={readimg1} alt="" />
               <div className=" relative top-[-15px] w-2/5 h-[25px] rounded-md mx-auto bg-gray-300"><p className=' font-medium text-[1.2rem]'>2/22/2024</p></div>
               <p className=' font-bold'>کیفیت لوازم آرایشی در چیست؟</p>
               <p className=' text-[#b5b5b5] '>...اهمیت کیفیت لوازم آرایشی اصلی</p>
               <a className=' relative  no-underline text-red-300 font-bold text-[1.6rem]' href="#">Read more</a>
             </div>
           </div>
-          <div className=" w-[250px] h-[350px] rounded-lg shadow-md m-2">
-            <div className="card2">
-              <img className='w-[100%]' src={readimg2} alt="" />
+          <div className=" overflow-hidden w-[250px] h-[350px] rounded-lg shadow-md m-2">
+            <div className="card2 zoom ">
+              <img className=' w-[100%]' src={readimg2} alt="" />
               <div className=" relative top-[-15px] w-2/5 h-[25px] rounded-md mx-auto bg-gray-300"><p className=' font-medium text-[1.2rem]'>2/22/2024</p></div>
               <p className=' font-bold'>کیفیت لوازم آرایشی در چیست؟</p>
               <p className=' text-[#b5b5b5] '>...اهمیت کیفیت لوازم آرایشی اصلی</p>
               <a className=' relative  no-underline text-red-300 font-bold text-[1.6rem]' href="#">Read more</a>
             </div>
           </div>
-          <div className=" w-[250px] h-[350px] rounded-lg shadow-md m-2">
-            <div className="card2">
-              <img className='w-[100%]' src={readimg3} alt="" />
+          <div className=" overflow-hidden w-[250px] h-[350px] rounded-lg shadow-md m-2">
+            <div className="card2 zoom ">
+              <img className=' w-[100%]' src={readimg3} alt="" />
               <div className=" relative top-[-15px] w-2/5 h-[25px] rounded-md mx-auto bg-gray-300"><p className=' font-medium text-[1.2rem]'>2/22/2024</p></div>
               <p className=' font-bold'>کیفیت لوازم آرایشی در چیست؟</p>
               <p className=' text-[#b5b5b5] '>...اهمیت کیفیت لوازم آرایشی اصلی</p>
               <a className=' relative  no-underline text-red-300 font-bold text-[1.6rem]' href="#">Read more</a>
             </div>
           </div>
-          <div className=" w-[250px] h-[350px] rounded-lg shadow-md m-2">
-            <div className="card2">
-              <img className='w-[100%]' src={readimg4} alt="" />
+          <div className=" overflow-hidden w-[250px] h-[350px] rounded-lg shadow-md m-2">
+            <div className="card2 zoom ">
+              <img className=' w-[100%]' src={readimg4} alt="" />
               <div className=" relative top-[-15px] w-2/5 h-[25px] rounded-md mx-auto bg-gray-300"><p className=' font-medium text-[1.2rem]'>2/22/2024</p></div>
               <p className=' font-bold'>کیفیت لوازم آرایشی در چیست؟</p>
               <p className=' text-[#b5b5b5] '>...اهمیت کیفیت لوازم آرایشی اصلی</p>
               <a className=' relative  no-underline text-red-300 font-bold text-[1.6rem]' href="#">Read more</a>
             </div>
           </div>
-          <div className=" w-[250px] h-[350px] rounded-lg shadow-md m-2">
-            <div className="card2">
-              <img className='w-[100%]' src={readimg5} alt="" />
+          <div className=" overflow-hidden w-[250px] h-[350px] rounded-lg shadow-md m-2">
+            <div className="card2 zoom ">
+              <img className=' w-[100%]' src={readimg5} alt="" />
               <div className=" relative top-[-15px] w-2/5 h-[25px] rounded-md mx-auto bg-gray-300"><p className=' font-medium text-[1.2rem]'>2/22/2024</p></div>
               <p className=' font-bold'>کیفیت لوازم آرایشی در چیست؟</p>
               <p className=' text-[#b5b5b5] '>...اهمیت کیفیت لوازم آرایشی اصلی</p>
               <a className=' relative  no-underline text-red-300 font-bold text-[1.6rem]' href="#">Read more</a>
             </div>
           </div>
-          <div className=" w-[250px] h-[350px] rounded-lg shadow-md m-2">
-            <div className="card2">
-              <img className='w-[100%]' src={readimg1} alt="" />
+          <div className=" overflow-hidden w-[250px] h-[350px] rounded-lg shadow-md m-2">
+            <div className="card2 zoom ">
+              <img className=' w-[100%]' src={readimg1} alt="" />
               <div className=" relative top-[-15px] w-2/5 h-[25px] rounded-md mx-auto bg-gray-300"><p className=' font-medium text-[1.2rem]'>2/22/2024</p></div>
               <p className=' font-bold'>کیفیت لوازم آرایشی در چیست؟</p>
               <p className=' text-[#b5b5b5] '>...اهمیت کیفیت لوازم آرایشی اصلی</p>
