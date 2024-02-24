@@ -8,8 +8,8 @@ import enamad from '../asset/enamad-logo.ac482e80.jpeg';
 
 const Footer = () => {
   return (
-    <div className="footer flex flex-col bg-[#ff2c848b] w-[100%] pt-[30px]">
-      <div className="discript relative w-[100%] ">
+    <div className="footer m-0 flex flex-col md:flex-row bg-[#ff2c848b] w-[100%] pt-[30px]">
+      <div className="discript relative w-[100%] md:w-1/3 md:order-last">
         <div className=" text-right w-[360px] mx-auto ">
           <p className=" font-bold text-[1.4rem]">درباره فروشگاه</p>
           <p dir="rtl" className=" font-medium text-[1rem] leading-[2rem] text-justify">اِسل یک فروشگاه آنلاین است که در زمینه فروش انواع لوازم آرایشی فعالیت می‌کند. ما به عنوان یک فروشنده معتبر، بهترین برندها و محصولات با کیفیت را به مشتریان ارائه می‌دهیم. در اِسل، متعهد هستیم که بهترین تجربه خرید را برای مشتریانمان فراهم کنیم. مجموعه‌ای از بهترین برندهای لوازم آرایشی را در سایت اِسل پیدا خواهید کرد. ما با توجه به استانداردهای بالا در انتخاب محصولات، همیشه از برندهای معتبر و مشهور در صنعت آرایش استفاده می‌کنیم.</p>
@@ -19,8 +19,8 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div className="mx-auto">
-        <div className="products relative w-[150px] float-right mt-8">
+      <div className="mx-auto flex">
+        <div className="products relative w-[150px] float-right mt-8 md:order-last">
           <div className="text-right pr-[20px]">
             <p className=" font-bold text-[1.4rem] mb-7">محصولات</p>
             <ul className=' list-none w-[100%] font-normal'>
@@ -42,7 +42,7 @@ const Footer = () => {
         </div>
 
       </div>
-      <div className="medals relative mx-auto mt-8 ">
+      <div className="medals relative mx-auto mt-8 mb-4 md:order-first">
         <p className='font-bold text-[1.4rem] mb-7'>با اعتماد خرید کنید</p>
         <img className='h-auto w-[80px] mr-2 rounded-lg' src={zar} alt="" />
         <img className='h-auto w-[105px] ml-2' src={enamad} alt="" />
